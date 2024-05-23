@@ -715,7 +715,7 @@ class Controls extends FlxActionSet
           case Control.VOLUME_UP: return [PLUS, NUMPADPLUS];
           case Control.VOLUME_DOWN: return [MINUS, NUMPADMINUS];
           case Control.VOLUME_MUTE: return [ZERO, NUMPADZERO];
-          case Control.FULLSCREEN: return [FlxKey.F];
+          case Control.FULLSCREEN: return [FlxKey.F11];
 
         }
       case Duo(true):
@@ -740,7 +740,7 @@ class Controls extends FlxActionSet
           case Control.VOLUME_UP: return [PLUS];
           case Control.VOLUME_DOWN: return [MINUS];
           case Control.VOLUME_MUTE: return [ZERO];
-          case Control.FULLSCREEN: return [FlxKey.F];
+          case Control.FULLSCREEN: return [FlxKey.F11];
 
         }
       case Duo(false):
